@@ -1,5 +1,6 @@
 package dev.swagat.movies;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,6 +14,8 @@ import java.util.Map;
 @RequestMapping("/api/v1/reviews")
 public class ReviewController {
 
+    //@first there is no @Autowired
+    @Autowired
    private ReviewService reviewService;
 
    @PostMapping
