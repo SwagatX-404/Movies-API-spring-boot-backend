@@ -1,1 +1,1 @@
-## Movie API Sprin boot
+## Movie API Spring Boot
